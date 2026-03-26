@@ -22,7 +22,7 @@ jobs:
           cache: "pip"
 
       - name: Install Python dependencies
-        run: ./scripts/setup-env.sh
+        run: bash ./scripts/setup-env.sh
 
       # Frontend setup - Node.js
       - name: Set up Node.js
